@@ -2,6 +2,7 @@
 マイコンロボット工作セット (クローラータイプ)をSimulinkでプログラミングするブロックです
 This Simulink model is created using "older" model with BBC micro:bit version 1.5
 (micro:bit V2.1 version of robot is currently sold from Tamiya)
+https://www.tamiya.com/japan/products/71201/index.html
 
 # Required Software
 Created and Tested with R2024b version of MATLAB and Simulink
@@ -12,6 +13,7 @@ and Install following hardware support package
 # Block Example includes access to distance sensor and motors
 The block example here is quite simple.  
 I used Simulink functions and MATLAB Function block for measureDistance function to access necessary I2C hardware components. 
-
-<img width="1060" height="735" alt="image" src="https://github.com/user-attachments/assets/996ab24a-b832-401e-92b0-6b208be09661" />
+You can use External mode (Monitor & Tune), as well as "Build, Deploy & Start" to get the robot running standalone.
+External mode is very useful when debugging your model behavior (though you need to be connected via USB
+<img width="1068" height="660" alt="image" src="https://github.com/user-attachments/assets/d06b536d-451a-4552-bb95-9a2e7f4298be" />
 
