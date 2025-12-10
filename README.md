@@ -11,5 +11,7 @@ and Install following hardware support package
 
 # Block Example includes access to distance sensor and motors
 The block example here is quite simple.  
+I used Simulink functions and MATLAB Function block for measureDistance function to access necessary I2C hardware components. 
+
 <img width="1060" height="735" alt="image" src="https://github.com/user-attachments/assets/996ab24a-b832-401e-92b0-6b208be09661" />
 
