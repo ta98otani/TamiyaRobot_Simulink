@@ -1,0 +1,2 @@
+# TamiyaRobot_Simulink
+マイコンロボット工作セット (クローラータイプ)をSimulinkでプログラミングするブロックです
